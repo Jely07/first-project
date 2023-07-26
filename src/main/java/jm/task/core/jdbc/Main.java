@@ -10,6 +10,7 @@ public class Main {
         userService.saveUser("Ben","Parker", (byte) 56);
         userService.saveUser("MaryDjein","Watsan", (byte) 17);
         userService.saveUser("May","Parker", (byte) 57);//
-        System.out.println(userService.getAllUsers());// реализуйте алгоритм здесь
+        System.out.println(userService.getAllUsers());
+
     }
 }
